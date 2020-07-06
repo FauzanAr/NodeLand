@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "An API to handle product app",
+  "description": "An API to handle product management app",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
