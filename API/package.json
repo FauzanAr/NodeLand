@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "An API to handle product app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FauzanAr/NodeLand.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "FauzanAr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FauzanAr/NodeLand/issues"
+  },
+  "homepage": "https://github.com/FauzanAr/NodeLand#readme"
+}
