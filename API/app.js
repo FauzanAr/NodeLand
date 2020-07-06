@@ -12,7 +12,6 @@ app.get('/',(req, res) => {
 })
 
 //* Listen port
-const PORT = 3000
-app.listen(PORT, () => {
-    console.log(`Serving on ${PORT}`)
+app.listen(process.env.PORT, () => {
+    console.log(`Serving on ${process.env.PORT}`)
 })
