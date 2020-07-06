@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/FauzanAr/NodeLand/issues"
   },
-  "homepage": "https://github.com/FauzanAr/NodeLand#readme"
+  "homepage": "https://github.com/FauzanAr/NodeLand#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
