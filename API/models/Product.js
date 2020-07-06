@@ -9,7 +9,8 @@ const ProductSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
-        lowercase: true
+        lowercase: true,
+        trim: true
     },
     deskripsiProduk: {
         type: String,
@@ -39,3 +40,5 @@ const ProductSchema = new mongoose.Schema({
         type: Date,
     }
 })
+
+module.exports = mongoose.model('Product', ProductSchema)
